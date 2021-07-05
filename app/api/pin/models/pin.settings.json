@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "pins",
+  "info": {
+    "name": "pin"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "tokens": {
+      "type": "json"
+    }
+  }
+}

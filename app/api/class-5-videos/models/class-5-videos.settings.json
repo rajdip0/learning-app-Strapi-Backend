@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "class_5_videos",
+  "info": {
+    "name": "class-5-videos"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "videoUrl": {
+      "type": "string"
+    },
+    "videoTitle": {
+      "type": "string"
+    },
+    "classChapter": {
+      "type": "string"
+    },
+    "subject": {
+      "model": "subject",
+      "via": "class_5_videos"
+    },
+    "language": {
+      "model": "language",
+      "via": "class_5_videos"
+    }
+  }
+}

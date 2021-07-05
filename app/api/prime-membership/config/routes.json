@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/prime-memberships",
+      "handler": "prime-membership.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/prime-memberships/count",
+      "handler": "prime-membership.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/prime-memberships/:id",
+      "handler": "prime-membership.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/prime-memberships",
+      "handler": "prime-membership.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/prime-memberships/:id",
+      "handler": "prime-membership.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/prime-memberships/:id",
+      "handler": "prime-membership.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -561,6 +561,15 @@
                 "role": {
                   "type": "string"
                 },
+                "fullName": {
+                  "type": "string"
+                },
+                "mobileNumber": {
+                  "type": "string"
+                },
+                "referralCode": {
+                  "type": "string"
+                },
                 "created_by": {
                   "type": "string"
                 },

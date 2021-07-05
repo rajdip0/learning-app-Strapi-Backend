@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "class_10_videos",
+  "info": {
+    "name": "class-10-video"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "videoUrl": {
+      "type": "string"
+    },
+    "videoTitle": {
+      "type": "string"
+    },
+    "classChapter": {
+      "type": "string"
+    },
+    "language": {
+      "model": "language",
+      "via": "class_10_videos"
+    },
+    "subject": {
+      "model": "subject",
+      "via": "class_10_videos"
+    }
+  }
+}

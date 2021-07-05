@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "free_users",
+  "info": {
+    "name": "freeUser"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "referId": {
+      "type": "string"
+    }
+  }
+}

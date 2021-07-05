@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "prime_memberships",
+  "info": {
+    "name": "primeMembership"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "referId": {
+      "type": "string"
+    },
+    "pinNumber": {
+      "type": "string"
+    }
+  }
+}

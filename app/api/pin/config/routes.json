@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pin",
+      "handler": "pin.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pin",
+      "handler": "pin.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pin",
+      "handler": "pin.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

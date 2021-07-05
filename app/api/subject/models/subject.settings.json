@@ -10,8 +10,40 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "name": {
+    "subjectName": {
       "type": "string"
+    },
+    "class_5_videos": {
+      "via": "subject",
+      "collection": "class-5-videos"
+    },
+    "class_6_videos": {
+      "via": "subject",
+      "collection": "class-6-videos"
+    },
+    "class_7_videos": {
+      "via": "subject",
+      "collection": "class-7-video"
+    },
+    "class_8_videos": {
+      "via": "subject",
+      "collection": "class-8-video"
+    },
+    "class_9_videos": {
+      "via": "subject",
+      "collection": "class-9-video"
+    },
+    "class_10_videos": {
+      "via": "subject",
+      "collection": "class-10-video"
+    },
+    "class_11_videos": {
+      "via": "subject",
+      "collection": "class-11-video"
+    },
+    "class_12_videos": {
+      "via": "subject",
+      "collection": "class-12-video"
     }
   }
 }

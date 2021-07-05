@@ -522,8 +522,304 @@
           "id": {
             "type": "string"
           },
-          "name": {
+          "subjectName": {
             "type": "string"
+          },
+          "class_5_videos": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "videoUrl": {
+                  "type": "string"
+                },
+                "videoTitle": {
+                  "type": "string"
+                },
+                "classChapter": {
+                  "type": "string"
+                },
+                "subject": {
+                  "type": "string"
+                },
+                "language": {
+                  "type": "string"
+                },
+                "published_at": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "class_6_videos": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "videoUr": {
+                  "type": "string"
+                },
+                "videoTitle": {
+                  "type": "string"
+                },
+                "classChapter": {
+                  "type": "string"
+                },
+                "language": {
+                  "type": "string"
+                },
+                "subject": {
+                  "type": "string"
+                },
+                "published_at": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "class_7_videos": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "videoUrl": {
+                  "type": "string"
+                },
+                "videoTitle": {
+                  "type": "string"
+                },
+                "classChapter": {
+                  "type": "string"
+                },
+                "language": {
+                  "type": "string"
+                },
+                "subject": {
+                  "type": "string"
+                },
+                "published_at": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "class_8_videos": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "videoUrl": {
+                  "type": "string"
+                },
+                "videoTitle": {
+                  "type": "string"
+                },
+                "classChapter": {
+                  "type": "string"
+                },
+                "subject": {
+                  "type": "string"
+                },
+                "language": {
+                  "type": "string"
+                },
+                "published_at": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "class_9_videos": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "videoUrl": {
+                  "type": "string"
+                },
+                "videoTitle": {
+                  "type": "string"
+                },
+                "classChapter": {
+                  "type": "string"
+                },
+                "language": {
+                  "type": "string"
+                },
+                "subject": {
+                  "type": "string"
+                },
+                "published_at": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "class_10_videos": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "videoUrl": {
+                  "type": "string"
+                },
+                "videoTitle": {
+                  "type": "string"
+                },
+                "classChapter": {
+                  "type": "string"
+                },
+                "language": {
+                  "type": "string"
+                },
+                "subject": {
+                  "type": "string"
+                },
+                "published_at": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "class_11_videos": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "videoUrl": {
+                  "type": "string"
+                },
+                "videoTitle": {
+                  "type": "string"
+                },
+                "classChapter": {
+                  "type": "string"
+                },
+                "subject": {
+                  "type": "string"
+                },
+                "language": {
+                  "type": "string"
+                },
+                "published_at": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "class_12_videos": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "videoUrl": {
+                  "type": "string"
+                },
+                "videoTitle": {
+                  "type": "string"
+                },
+                "classChapter": {
+                  "type": "string"
+                },
+                "language": {
+                  "type": "string"
+                },
+                "subject": {
+                  "type": "string"
+                },
+                "published_at": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
           },
           "published_at": {
             "type": "string",
@@ -533,8 +829,56 @@
       },
       "NewSubject": {
         "properties": {
-          "name": {
+          "subjectName": {
             "type": "string"
+          },
+          "class_5_videos": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "class_6_videos": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "class_7_videos": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "class_8_videos": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "class_9_videos": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "class_10_videos": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "class_11_videos": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "class_12_videos": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
           },
           "published_at": {
             "type": "string",
