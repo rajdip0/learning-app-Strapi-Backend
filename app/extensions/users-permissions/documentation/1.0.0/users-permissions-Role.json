@@ -570,6 +570,15 @@
                 "referralCode": {
                   "type": "string"
                 },
+                "district": {
+                  "type": "string"
+                },
+                "state": {
+                  "type": "string"
+                },
+                "payMent": {
+                  "type": "boolean"
+                },
                 "created_by": {
                   "type": "string"
                 },

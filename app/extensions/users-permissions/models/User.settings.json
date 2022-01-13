@@ -67,7 +67,17 @@
     },
     "referralCode": {
       "type": "string",
-      "unique": true
+      "unique": false
+    },
+    "district": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "payMent": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

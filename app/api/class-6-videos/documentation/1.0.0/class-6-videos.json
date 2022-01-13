@@ -262,7 +262,7 @@
     "/class-6-videos/count": {
       "get": {
         "deprecated": false,
-        "description": "Retrieve the numver of class-6-videos documents",
+        "description": "Retrieve the number of class-6-videos documents",
         "responses": {
           "200": {
             "description": "Retrieve class-6-videos document(s)",

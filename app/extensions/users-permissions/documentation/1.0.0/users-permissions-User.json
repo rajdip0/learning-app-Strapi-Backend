@@ -1259,6 +1259,16 @@
           },
           "referralCode": {
             "type": "string"
+          },
+          "district": {
+            "type": "string"
+          },
+          "state": {
+            "type": "string"
+          },
+          "payMent": {
+            "type": "boolean",
+            "default": false
           }
         }
       },
@@ -1309,6 +1319,16 @@
           },
           "referralCode": {
             "type": "string"
+          },
+          "district": {
+            "type": "string"
+          },
+          "state": {
+            "type": "string"
+          },
+          "payMent": {
+            "type": "boolean",
+            "default": false
           },
           "created_by": {
             "type": "string"
